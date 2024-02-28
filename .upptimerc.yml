@@ -13,6 +13,7 @@ sites:
     url: https://app.wexler.ai/
     expectedStatusCodes:
       - 403 # Meaning we were redirected to propel auth
+      - 200 
 
   - name: Authentication
     url: https://auth.app.wexler.ai/en/login
@@ -32,6 +33,7 @@ sites:
     url: https://dev.app.wexler.ai/
     expectedStatusCodes:
       - 403 # Meaning we were redirected to propel auth
+      - 200
 
   - name: Authentication (DEV)
     url: https://auth.dev.app.wexler.ai/en/login
