@@ -11,13 +11,34 @@ sites:
 
   - name: Application
     url: https://app.wexler.ai/
+    expectedStatusCodes:
+      - 403 # Meaning we were redirected to propel auth
 
   - name: Authentication
     url: https://auth.app.wexler.ai/en/login
 
   - name: API
     url: https://api.wexler.ai/
-  
+
+  # Also development parts
+
+  - name: Landing Page (DEV)
+    url: https://dev.wexler.ai
+
+  - name: Blog (DEV)
+    url: https://dev.wexler.ai/insights
+
+  - name: Application (DEV)
+    url: https://dev.app.wexler.ai/
+    expectedStatusCodes:
+      - 403 # Meaning we were redirected to propel auth
+
+  - name: Authentication (DEV)
+    url: https://auth.dev.app.wexler.ai/en/login
+
+  - name: API (DEV)
+    url: https://dev.api.wexler.ai/
+    
 assignees: # Users to assign downtime issues (optional)
   - luisenriquecgongora
   - kushmadlani
