@@ -7,6 +7,7 @@ sites:
     url: https://www.wexler.ai
 assignees: # Users to assign downtime issues (optional)
   - luisenriquecgongora
+  - kushmadlani
 
 status-website:
   baseUrl: /wexler-status-page # where "repo" is your repository name
