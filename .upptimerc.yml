@@ -47,4 +47,10 @@ assignees: # Users to assign downtime issues (optional)
 
 status-website:
   baseUrl: /wexler-status-page # where "repo" is your repository name
-  name: Wexler Status Website
+  name: 
+  logoUrl: https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/rgx0zpaoanurvkdjktj4
+  introTitle: "**Wexler** powered technology establishes the facts in any contentious matter."
+  introMessage: Check here for incidents and the status of Wexler's APIs and services
+  navbar:
+    - title: Status
+      href: /
