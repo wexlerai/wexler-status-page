@@ -19,7 +19,7 @@ sites:
     url: https://auth.app.wexler.ai/en/login
 
   - name: API
-    url: https://api.wexler.ai/
+    url: https://ctty2sm3ct.eu-west-2.awsapprunner.com
 
   # Also development parts
 
@@ -39,7 +39,7 @@ sites:
     url: https://auth.dev.app.wexler.ai/en/login
 
   - name: API (DEV)
-    url: https://dev.api.wexler.ai/
+    url: https://tc2rqni3gd.eu-west-2.awsapprunner.com
     
 assignees: # Users to assign downtime issues (optional)
   - luisenriquecgongora
