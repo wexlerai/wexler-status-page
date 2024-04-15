@@ -60,10 +60,10 @@
     "url": "https://auth.app.wexler.ai/en/login",
     "icon": "https://icons.duckduckgo.com/ip3/auth.app.wexler.ai.ico",
     "slug": "authentication",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 565,
@@ -71,7 +71,9 @@
     "timeWeek": 513,
     "timeMonth": 542,
     "timeYear": 565,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-15": 1
+    }
   },
   {
     "name": "API",
